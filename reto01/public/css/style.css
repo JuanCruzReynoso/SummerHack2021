@@ -1,0 +1,58 @@
+@font-face {
+    font-family: 'Igor_BoldItalic';
+    src: url('../fonts/igor-bolditalic.woff2') format('woff2'),
+        url('../fonts/igor-bolditalic.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'JackInput';
+    src: url('../fonts/JackInput.woff2') format('woff2'),
+        url('../fonts/JackInput.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+h1{
+    font-family: 'Igor_BoldItalic';
+    font-size: 45px;
+    text-align: center;
+    color: #2A2F29;
+}
+
+h2{
+    font-family: 'Igor_BoldItalic';
+    font-size: 40px;
+    text-align: center;
+    color: #2A2F29;
+}
+
+p{
+    font-family: 'JackInput';
+    font-size: 25px;
+    text-align: center;
+    color: #2A2F29;
+}
+
+img{
+    width: 500px;
+    max-width: 100%;
+    height: auto;
+}
+
+.center{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+.pink{
+    background-color: #ECA8BF;
+}
+
+.grey{
+    background-color: #2A2F29;
+}

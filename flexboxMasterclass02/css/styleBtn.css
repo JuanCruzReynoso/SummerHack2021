@@ -1,0 +1,54 @@
+body{
+    margin: 0px;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+
+.logo{
+    font-size: 30px;
+}
+
+header{
+    display: flex;
+    background: lightskyblue;
+    justify-content: space-between;
+    align-items: center;
+}
+
+ul{
+    display: flex;
+    list-style: none;
+    justify-content: space-around;
+}
+
+nav{
+    background: magenta;
+    width: 400px;
+}
+
+section{
+    display: flex;
+    height: 90vh;
+}
+
+article{
+    flex-grow: 3;
+    background: chartreuse;
+}
+
+aside{
+    flex-grow: 1;
+    background: darkcyan;
+    order: 2;
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+}
